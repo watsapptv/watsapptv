@@ -319,3 +319,23 @@ footer {
     text-align: center;
     padding: 2em 0;
 }
+
+.wj-social-icons {
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		@include inline-block;
+		a {
+			@include inline-block;
+			color: $brand-primary;
+			padding-left: 10px;
+			padding-right: 10px;
+			i {
+				font-size: 20px;
+			}
+		}
+	}
+}
