@@ -80,7 +80,37 @@
   {{ content }}
   
     <footer>
-      This project is not endorsed by, affiliated to, or sponsored by WhatsApp Inc. and their products in any way. We just use the WhatsApp platform to share good content.
+      <div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy;&nbsp;<script>document.write(new Date().getFullYear());</script>&nbsp;webjeda. All Rights Reserved.<b>This project is not endorsed by, affiliated to, or sponsored by WhatsApp Inc. and their products in any way. We just use the WhatsApp platform to share good content.</small>
+						<!-- <small>GSTN: 29EVLPS9250Q1Z8</small> -->
+
+				    </p>
+
+
+						<ul class="wj-social-icons" >
+							<li>
+							    <a href="https://twitter.com/{{site.twitter.username}}"><i class="icon-twitter-with-circle"></i></a>
+							</li>
+							<li>
+							    <a href="https://facebook.com/{{site.facebook.publisher}}"><i class="icon-facebook-with-circle"></i></a>
+							</li>
+							<li>
+							    <a href="{{site.github}}"><i class="icon-github-with-circle"></i></a>
+							</li>
+							<li>
+							<a href="{{site.youtube}}"><i class="icon-youtube-with-circle"></i></a>
+							</li>
+						</ul>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	</div>
+      
   </footer>
 </div>
   <!-- Calling Fontawesome at the end to avoid delay in loading --> 
