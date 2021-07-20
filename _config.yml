@@ -1,18 +1,18 @@
-title: Webjeda
+title: WatsApp TV
 description: WebJeda is a web designing company based in Bangalore. Designing beautiful, responsive and functional websites is our passion.
 url: https://webjeda.com
 logo: /images/apple-touch-icon-ipad-retina-152x152.png
 
 contact: '/contact/#wj-contact'
 learn-more: '/about/#wj-features'
-github: https://github.com/sharu725
-youtube: https://www.youtube.com/webjeda
+github: https://github.com
+youtube: https://www.youtube.com/
 
 twitter:
-  username: officialAllpree
+  username: officialallpree
   
 Instagram:
-  username: officialAllpree
+  username: officialallpree
 
 social:
   name: OfficialAllpree
@@ -23,8 +23,8 @@ social:
 
 facebook:
  app_id: 549480635219583
- publisher: webjeda
- admins: sharu725
+ publisher: officialallpree
+ admins: garen
 
 include: ["_pages"]
 exclude:
