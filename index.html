@@ -3,24 +3,31 @@ title: Share LOL-Worthy Moments Through Status
 layout: default
 ---
 
-{% include head.html %}
+{% for post in site.posts %}
+<div class="list">
+<div class="post-index">
+    <div class="post-image">
+        <a href="{{post.url}}">
+            
+              <i class="fa fa-{{post.icon}} fa-fw"></i>
+            
+        </a>
+    </div>
+    <div class="post-content">
+        <p class="post-index-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></p>
+        <p>
+            
+                <span class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 90 }}</span>
+            
+        </p>
+        <p class="post-detail">{{ post.date | date: '%B %d, %Y' }}
+             
+             <a href="{{site.baseurl}}{{post.url}}/index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
+        </p>
+    </div>
+</div>
+</div>
 
-<body id="page-top">
 
-  {% include navigation.html %}
-  {% include homepage.html %}
-  
-     {% include benefits.html %}
-     {% include training.html %}
-     {% include testimonials.html %}
-     {% include social.html %}
-     {% include location.html %}
-     {% include signup.html %}
-    
 
-{% include footer.html %}
-
-{% include scripts.html %}
-</body>
-
-</html>
+{% endfor %}
