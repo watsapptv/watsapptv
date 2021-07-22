@@ -230,17 +230,6 @@ pre {
 header {
     text-align: center;
 	
-	.row.land {
-    padding-bottom: 0;
-    @include media-query($content-width) {
-        height: 100%;
-
-    }
-
-    @include media-query($on-laptop) {
-      /*   padding-bottom: 20px; */
-        }
-
 }
 
 .home-right {
