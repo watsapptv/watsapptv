@@ -1,6 +1,95 @@
 /* http://codepen.io/Rabrennie/pen/WogNvV */
 
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
 
+ figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    color: $text-color;
+    line-height: $base-line-height;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $head-font-family;
+}
+
+a {
+    text-decoration: none;
+    color: $brand-color;
+    &:hover {
+        color: $text-color;
+    }
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+
+    color: $grey-color;
+    border-left: 4px solid $brand-color;
+    padding-left: $spacing-unit / 2;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/**
+ * Code formatting
+ */
+
+.highlighter-rouge {
+    font-family: inherit;
+}
+
+pre,
+code {
+    border-radius: 3px;
+    border: 1px solid $brand-color;
+}
+
+code {
+    padding: 1px 5px;
+    font-size: 0.8em;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
 
 .row.land {
     padding-bottom: 0;
