@@ -2,23 +2,6 @@
 
 
 
-header {
-    h1 {
-        line-height: 1;
-        @include media-query($on-laptop) {
-            font-size: 26px;
-        }
-    }
-    h2 {
-        font-size: 25px;
-        line-height: 1.5;
-        @include media-query($on-laptop) {
-            font-size: 20px;
-        }
-    }
-
-}
-
 .row.land {
     padding-bottom: 0;
     @include media-query($content-width) {
@@ -127,61 +110,10 @@ header {
 .col-md-6.home-txt {
     float: right;
     @include media-query(1000px) {
-        float: right;
+        float: none;
     }
 }
 
-.mt50 {
-    margin-top: 50px;
-}
-#benefits {
-    h2 {
-        position: relative;
-        top: -30px;
-    }
-    .brdr {
-        padding: 10px;
-    }
-}
-
-.expl {
-        padding: 60px;
-        @include media-query($on-palm) {
-            padding: 10px;
-        }
-}
-
-
-
-.features {
-    h3 {
-            font-weight: 400;
-    }
-    .bor:not(:last-child) {
-            @include media-query($on-laptop) {
-                border-bottom: 1px solid #eee;
-                border-radius: 5px;
-                margin-bottom: 10px;
-            }
-        }
-}
-
-/* .rev-pos-img {
-    position: relative;
-    top: 190px;
-}
-.rev-pos-txt {
-    position: relative;
-    bottom: 315px;
-} */
-
-.cert {
-        vertical-align: top;
-        border-radius: 50px;
-    &:hover {
-        opacity: 0.9;
-    }
-}
 
 .home-exp {
     margin-top: 100px;
@@ -195,37 +127,7 @@ header {
     }
 }
 
-.list-inline>li {
-    display: inline-block;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 
-section.signup {
-    padding: 20px 0;
-}
-
-.mb-50 {
-    margin-bottom: 50px;
-}
-
-.certificate {
-    border-radius: 4px;
-    box-shadow: 0 0 10px #9c9c9c;
-}
-
-
-.col-md-6.rev-txt {
-    float: right;
-    @include media-query($on-palm) {
-        float: none;
-    }
-}
-.social-embed {
-    max-height: 480px;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
 
 
  /**
