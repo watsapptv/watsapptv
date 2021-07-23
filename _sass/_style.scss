@@ -64,7 +64,31 @@
 }
 
 
-
+.btn-outline {
+/*   color: white;
+  border-color: white;
+  border: 1px solid; */
+    outline: none;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+/*   color: white;
+  background-color: #fdcc52;
+  border-color: #fdcc52; */
+    outline: none;
+}
+.btn {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+}
+.btn-xl {
+    padding: 22px 50px;
+    font-size: 11px;
+}
 
 
 /* Form style */
