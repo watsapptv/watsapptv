@@ -102,7 +102,7 @@ pre {
 .menu-container {
     position: fixed;
 	width:5rem;
-	height: 5rem;
+	height: 1rem;
 	overflow: hidden;
 	left:0;
 	top: 0;
@@ -112,7 +112,7 @@ pre {
 .menu {
 	position: relative;
 	width: 10rem;
-	height: 10rem;
+	height: 1rem;
 	background-color: $brand-color;
 	border-radius: 100%;
 	transform: translate(-50%, -50%);
@@ -126,7 +126,7 @@ pre {
 #label-ham {
     position: fixed;
 	width: 10rem;
-	height: 10rem;
+	height: 1rem;
 	border-radius: 100%;
 	transform: translate(-50%, -50%);
 	z-index: 2;
@@ -136,7 +136,7 @@ pre {
 	&:before {
   content: "";
   position: absolute;
-  top: 65%;
+  top: 10%;
   left: 65%;
   width: 1em;
   height: 0.15em;
