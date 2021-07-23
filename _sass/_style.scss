@@ -1,13 +1,6 @@
 /* http://codepen.io/Rabrennie/pen/WogNvV */
 
-body {
-        overflow-x: hidden;
-}
 
-
-img {
-    max-width: 100%;
-}
 
 header {
     h1 {
@@ -92,45 +85,6 @@ header {
 
 
 /* Form style */
-#mc_embed_signup {
-      padding: 40px 10px;
-      text-align: left;
-      max-width: 620px;
-      margin: 0 auto;
-      @include media-query($on-laptop) {
-              /* max-width: 90%; */
-        }
-
-     @include media-query($on-palm) {
-            margin: 0 auto;
-        }
-
-    input {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    input[type=text], input[type=email] {
-        border: 1px solid #ddd;
-        border-radius: 2px;
-        padding: 18px 10px;
-        @include media-query($on-palm) {
-              padding: 10px 10px;
-        }
-    }
-
-}
-
-.response {
-    padding: 30px;
-}
-
-#mce-error-response {
-    color: red;
-}
-
-#mce-success-response {
-    color: green;
-}
 
 .btn-xl {
     padding: 22px 50px;
@@ -153,15 +107,6 @@ header {
 }
 
 
-label {
-    font-family: inherit;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-
-
-
 .image-cont {
    background-image: url(https://sharathdt.gitlab.io/keshfrc/img/kesh-raghuveer-frc-trainer.jpg);
    background-size: contain;
@@ -182,7 +127,7 @@ label {
 .col-md-6.home-txt {
     float: right;
     @include media-query(1000px) {
-        float: none;
+        float: right;
     }
 }
 
@@ -206,33 +151,6 @@ label {
         }
 }
 
-#location {
-    color: #fff;
-}
-
-iframe {
-    max-width: 100%;
-}
-
-
-
-.social-cerificate {
-                /* a {
-                    background-color: #ff9600;
-                    &:hover {
-                        background-color: darken(#ff9600, 5%);
-                    }
-                } */
-            }
-
-.social-instagram {
-                a {
-                    background-color: #fb3958;
-                    &:hover {
-                        background-color: darken(#fb3958, 5%);
-                    }
-                }
-            }
 
 
 .features {
