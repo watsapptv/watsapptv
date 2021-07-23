@@ -1,5 +1,33 @@
 /* http://codepen.io/Rabrennie/pen/WogNvV */
 
+// Button Styles
+.btn-outline {
+    color: white;
+    border-color: $btn-color;
+    background-color: $btn-color;
+    border: 1px solid;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        color: $brand-color;
+        background-color: white;
+        border-color: $brand-color;
+
+    }
+}
+
+.btn-xl {
+    padding: 22px 50px;
+    font-size: 13px;
+        @include media-query($on-palm) {
+               padding: 18px 18px;
+               font-size: 12px;
+               font-weight: bold;
+        }
+}
+
+
 .row.land {
     padding-bottom: 0;
     @include media-query($content-width) {
