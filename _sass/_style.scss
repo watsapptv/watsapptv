@@ -1,5 +1,47 @@
 /* http://codepen.io/Rabrennie/pen/WogNvV */
 
+.row.land {
+    padding-bottom: 0;
+    @include media-query($content-width) {
+        height: 100%;
+
+    }
+
+    @include media-query($on-laptop) {
+      /*   padding-bottom: 20px; */
+        }
+
+}
+
+.home-right {
+/*     padding: 0 0 0 30px;  */
+    padding: 30px;
+    @include media-query($on-laptop) {
+        padding: 0 0 0 15px;
+    }
+    @include media-query($on-laptop) {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    p {
+        color: $brand-color;
+        margin-bottom: 30px;
+            @include media-query($on-laptop) {
+                margin-bottom: 30px;
+                }
+    }
+
+
+
+}
+
+.home {
+    margin-top: 110px;
+
+}
+
 .image-cont {
    background-image: url(https://sharathdt.gitlab.io/keshfrc/img/kesh-raghuveer-frc-trainer.jpg);
    background-size: contain;
