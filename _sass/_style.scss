@@ -247,6 +247,38 @@ pre {
 }
 
 
+.list-inline>li {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+section.signup {
+    padding: 20px 0;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.certificate {
+    border-radius: 4px;
+    box-shadow: 0 0 10px #9c9c9c;
+}
+
+
+.col-md-6.rev-txt {
+    float: right;
+    @include media-query($on-palm) {
+        float: none;
+    }
+}
+.social-embed {
+    max-height: 480px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
 
 
  /**
