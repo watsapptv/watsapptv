@@ -9,21 +9,27 @@ github: https://github.com
 youtube: https://www.youtube.com/
 
 twitter:
-  username: officialallpree
+  username: joinwatsapp
   
 Instagram:
-  username: officialallpree
+  username: joinwatsapp
+  
+Snapchat:
+  username: joinwatsapp
+  
+Tiktok:
+  username: @joinwatsapp
 
 social:
-  name: OfficialAllpree
+  name: joinwatsapp
   links:
-    - https://twitter.com/officialAllpree
-    - https://facebook.com/officialAllpree
+    - https://twitter.com/joinwatsapp
+    - https://facebook.com/joinwatsapp
 
 
 facebook:
  app_id: 549480635219583
- publisher: officialallpree
+ publisher: joinwatsapp
  admins: garen
 
 include: ["_pages"]
