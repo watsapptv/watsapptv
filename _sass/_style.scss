@@ -213,7 +213,7 @@ pre {
    background-image: url(https://watsapptv.github.io/img/status.png);
    background-size: contain;
    background-position: top center;
-   width: 50%;
+   width: 150%;
    height: 600px;
    background-repeat: no-repeat;
     @include media-query($on-laptop) {
