@@ -1,3 +1,11 @@
+<script>
+
+       function phoneMask() { 
+    var num = $(this).val().replace(/\D/g,''); 
+    $(this).val(num.substring(0,1) + '(' + num.substring(1,4) + ')' + num.substring(4,7) + '-' + num.substring(7,11)); 
+}
+$('[type="tel"]').keyup(phoneMask);
+    </script>
 
 
 <body class="container">
@@ -40,7 +48,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                               <label>WhatsApp Number </label>
-                                <input class="form-control" name="entry.306024661" placeholder="Enter WA# With Area Code" type="text" pattern="[+]{1}[0-9]{11,14}" required>
+                                <input class="form-control" name="entry.306024661" placeholder="ex. 1(111)-111-1111" type="tel"  required>
                                 </div>
                         </div>
                          <div class="col-md-6">
