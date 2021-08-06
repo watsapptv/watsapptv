@@ -1,77 +1,4 @@
-<style>
-        
-        
-.form-control {
-  position: relative;
-  width: 280px;
-  height: 50px;
-}
-        .form-control input {
-  width: 100%;
-  border: 0;
-  outline: none;
-  height: 100%;
-  padding: 0 15px;
-  transition: 0.4s;
-}
-        .form-control label {
-  position: absolute;
-  top: 0;
-  display: flex;
-  align-items: center;
-  padding-left: 15px;
-  width: 100%;
-  height: 100%;
-  transition: 0.2s;
-  font-size: 1rem;
-  color: gray;
-  pointer-events: none;
-}
-        .form-control div.border-around {
-  position: absolute;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  height: 100%;
-  width: 100%;
-  padding-right: 25px;
-  top: 0;
-  pointer-events: none;
-  border-radius: 3px;
-  transition: 0.2s;
-}
-        .form-control input:valid + label {
-  top: -0.45rem;
-  left: 10px;
-  font-size: 0.9rem;
-  z-index: 100;
-  width: auto;
-  height: 0.9rem;
-  padding: 0 10px;
-  color: rgba(0, 0, 0, 0.3);
-}
 
-input:not(:focus) {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.form-control input:focus + label {
-  top: -0.45rem;
-  left: 10px;
-  font-size: 0.9rem;
-  z-index: 100;
-  width: auto;
-  height: 0.9rem;
-  padding: 0 10px;
-  color: #3484f0;
-}
-
-.form-control input:focus ~ div.border-around {
-  border: 2px solid #3484f0;
-}
-
-
-        </style>
-
-   
 
 <body class="container">
                 <br><br><br><br>
@@ -88,13 +15,14 @@ input:not(:focus) {
          
     <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='https://watsapptv.github.io/thanks.html';}"></iframe>
-               <div class="form-wrapper-outer"> 
+               
                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc6ntUhpfzRzy9VW3NR0dTqXmlGJNr4ytd7EGMAMRQpzvfMGA/formResponse" id="wj-form" method="post" onsubmit="submitted=true" target="hidden_iframe">
                     
-                            <div class="form-control">
+                            <div class="col-md-6">
+                            <div class="form-group">
                               <label>First Name</label>
-                                <input class="form-control" name="entry.1714233670"  type="text" required>
-                                    <div class="border-around"></div>
+                                <input class="form-control" name="entry.1714233670"  placeholder="Enter First Name Here" type="text" required>
+                                </div>    
                             </div>
                         
                         <div class="col-md-6">
@@ -115,15 +43,16 @@ input:not(:focus) {
                                 <input class="form-control" name="entry.306024661" placeholder="Enter WA# With Area Code" type="text" required>
                                 </div>
                         </div>
-                        <div class="field-wrapper">
-                             <div class="field-placeholder"><span>Gender</span></div> 
+                         <div class="col-md-6">
+                            <div class="form-group">
+                              <label>Gender</label>
                                 <select class="form-control" name="entry.2053546123" placeholder="Enter Gender Here" type="text" required >
                                     <option></option>
                                     <option>M</option>
                                     <option>F</option>
                                 </select>
                             </div>
-                        
+                        </div>
                         
                         <div class="col-md-6">
                             <div class="form-group">
