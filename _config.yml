@@ -1,6 +1,7 @@
 title: WatsApp TV
 description: Discover entertaining clips that capture the funny things that happen when people and animals are at their spontaneous best.
 url: https://watsapp.tv
+enforce_ssl: watsapp.tv
 logo: 
 
 contact: '/contact/#wj-contact'
