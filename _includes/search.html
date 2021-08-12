@@ -61,6 +61,8 @@ input[type=text]:focus {
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '/js/search.json'
+  searchResultTemplate: '<li><a href="{url}" tabindex="1"><p>{title}</p><span>{url}</span></a></li>',
+  noResultsText: '<li><p>No results found!</p></li>',
+  json: '/search.json'
 })
 </script>
