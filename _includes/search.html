@@ -1,3 +1,10 @@
+<style>
+	  .demo-wrapper {
+		  max-width: 80%;
+		  margin: 5% auto;
+	  }
+  </style>
+
 <div id="search-container">
 <input type="text" id="search-input" placeholder="search...">
 <ul id="results-container"></ul>
@@ -66,3 +73,16 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
+
+<!-- show site search results -->
+<script>
+  $(document).ready(function() {
+    $('#search').on('blur', function() {
+    $('.search-results').fadeOut('medium');
+});
+  $('#search').on('focus', function() {
+      $('.search-results').show();
+  });
+
+    });
+  </script>
