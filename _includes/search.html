@@ -74,9 +74,9 @@ input[type=text]:focus {
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        searchResultTemplate: '<a href="{url}" title="{desc}">{title}</a>',
         noResultsText: 'No results found',
-        limit: 10,
+        limit: 1,
         fuzzy: false,
         exclude: ['Welcome']
       })
