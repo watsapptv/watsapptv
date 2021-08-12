@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🇯🇲Jamaica - Westmoreland"
+title:  "🇯🇲 Jamaica - Westmoreland"
 icon:  question-circle-o
 ---
 
