@@ -3,7 +3,7 @@ description: Discover entertaining clips that capture the funny things that happ
 url: https://watsapp.tv
 enforce_ssl: watsapp.tv
 logo: 
-permalink: :v/title/
+permalink: :title/
 
 contact: '/contact/#wj-contact'
 learn-more: '/about/#wj-features'
