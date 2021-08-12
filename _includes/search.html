@@ -47,39 +47,29 @@ input[type=text]:focus {
     }
     }
 </style>
+<style>
+	  .demo-wrapper {
+		  max-width: 80%;
+		  margin: 5% auto;
+	  }
+  </style>
+
+<div class="demo-container">
+<a class="btn" href="/instant-jekyll-search/">Back to article</a>
+<div class="demo-wrapper">
+
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Enter Your Invitation code...">
+<ul id="results-container"></ul>
+</div>
+</div>
+
  <div id="search-demo-container">
-      <input type="text" id="search-input" placeholder="search...">
+      <input type="text" id="search-input" placeholder="Enter Your Invitation code...">
       <ul id="results-container"></ul>
     </div>
 
-    {% for post in site.posts %}
-<div class="list">
-<div class="post-index">
-    <div class="post-image">
-        <a href="{{post.url}}">
-            
-              <i class="fa fa-{{post.icon}} fa-fw"></i>
-            
-        </a>
-    </div>
-    <div class="post-content">
-        <p class="post-index-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></p>
-        <p>
-            
-                <span class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 90 }}</span>
-            
-        </p>
-        <p class="post-detail">{{ post.date | date: '%B %d, %Y' }}
-             
-             <a href="{{site.baseurl}}{{post.url}}/index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
-        </p>
-    </div>
-</div>
-</div>
-
-
-
-{% endfor %}
+    
 
 
 
