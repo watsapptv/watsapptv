@@ -1,88 +1,64 @@
-<style>
-	  .demo-wrapper {
-		  max-width: 80%;
-		  margin: 5% auto;
-	  }
-  </style>
 
-<div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-<ul id="results-container"></ul>
-</div>
+ <div id="search-demo-container">
+      <input type="text" id="search-input" placeholder="search...">
+      <ul id="results-container"></ul>
+    </div>
 
-<style>
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
 
-#search-container {
-    max-width: 100%;
-}
+  <h1 class="page-heading">Posts</h1>
 
-input[type=text] {
+  <ul class="post-list">
+    
+      <li>
+        <span class="post-meta">Nov 1, 2014</span>
 
-    outline: none;
-    padding: 15px 25px;
-    margin: 5px 1px 3px 0px;
-    border: none;
-    width: 100%;
-    border-radius: 1px;
-    box-shadow: 0 1px 0px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+        <h2>
+          <a class="post-link" href="/Simple-Jekyll-Search/example/jekyll/update/2014/11/01/test.html">This is just a test</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 1, 2014</span>
 
-}
+        <h2>
+          <a class="post-link" href="/Simple-Jekyll-Search/example/jekyll/update/2014/11/01/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 1, 2014</span>
 
-input[type=text]:hover {
-    outline: none;
-    border: none;
-    margin: 5px 1px 3px 0px;
-    padding: 15px 25px;
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-}
+        <h2>
+          <a class="post-link" href="/Simple-Jekyll-Search/jekyll/update/2014/11/01/test.html">This is just a test</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 1, 2014</span>
 
-input[type=text]:focus {
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-    margin: 5px 1px 3px 0px;
-    padding: 15px 25px;
-    border: none;
-    outline: none;
-        -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-}
+        <h2>
+          <a class="post-link" href="/Simple-Jekyll-Search/jekyll/update/2014/11/01/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+        </h2>
+      </li>
+    
+  </ul>
 
-@media screen and (max-width: 600px) {
-    input[type=text]{
-            width: 100%;
-            box-sizing: border-box;
-    }
-    }
-</style>
 
-<!-- Script pointing to search-script.js -->
-<script src="/js/search-script.js" type="text/javascript"></script>
+<script src="https://christian-fei.github.io/Simple-Jekyll-Search/js/jekyll-search.js" type="text/javascript"></script>
 
-<!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  searchResultTemplate: '<li><a href="{url}" tabindex="1"><p>{title}</p><span>{url}</span></a></li>',
-  noResultsText: '<li><p>No results found!</p></li>',
-  json: '/search.json'
-})
-</script>
 
-<!-- show site search results -->
-<script>
-  $(document).ready(function() {
-    $('#search').on('blur', function() {
-    $('.search-results').fadeOut('medium');
-});
-  $('#search').on('focus', function() {
-      $('.search-results').show();
-  });
-
-    });
-  </script>
+    <script type="text/javascript">
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: 'https://christian-fei.github.io/Simple-Jekyll-Search/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+    </script>
