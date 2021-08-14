@@ -77,7 +77,7 @@ input[type=text]:focus {
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
-        searchResultTemplate: '<div class="single-search-result"><h2><a href="{url}" title="{desc}">{title}</a></h2><p>{snippet}</p>Join On: <p class="date">{date}</p></div>',
+        searchResultTemplate: '<div class="single-search-result"><h2><a href="{url}" title="{desc}">{title}</a></h2><p>{snippet}</p><p class="date">Join On: {date}</p></div>',
         noResultsText: 'Counrty not found!',
         limit: 10,
         fuzzy: false,
