@@ -46,7 +46,6 @@ input[type=text]:focus {
             box-sizing: border-box;
     }
     }
-div.search-results div.single-search-result { border-bottom: 1px solid rgba(51, 51, 51, 0.1); padding-top: 0.25em; padding-bottom: 0.25em; margin: 0; vertical-align: middle; }
 </style>
 <style>
 	  .demo-wrapper {
@@ -54,7 +53,21 @@ div.search-results div.single-search-result { border-bottom: 1px solid rgba(51, 
 		  margin: 5% auto;
 	  }
   </style>
+<style>
+/* This is a partial SCSS file */
+div.search-query { text-align: center; vertical-align: middle; margin-top: 1em; margin-bottom: 1em; }
+div.search-query h2 { margin-top: 1em; margin-bottom: 1em; }
+div.search-query a, div.search-query a:hover, div.search-query a:focus, div.search-query a:active { color: #000; text-decoration: none; }
+div.search-query input[type="text"] { width: 100%; vertical-align: middle; margin-top: 0.25em; margin-bottom: 0.5em; padding: 0.75em; font-weight: lighter; border-style: solid; border-color: #444; border-width: 1px; border-radius: 3px; transition: box-shadow .2s ease; }
+div.search-query input[type="text"]:focus { outline: none; border-color: #477DCA; box-shadow: 0 0 2px #82a7db; }
 
+div.search-results { border-top: 1px solid rgba(51, 51, 51, 0.1); font-size: 0.75em; }
+div.search-results div.single-search-result { border-bottom: 1px solid rgba(51, 51, 51, 0.1); padding-top: 0.25em; padding-bottom: 0.25em; margin: 0; vertical-align: middle; }
+div.search-results h2 { font-size: 1em; margin: 0; }
+div.search-results a, div.search-results a:hover, div.search-results a:focus, div.search-results a:active { text-decoration: none; }
+div.search-results p { line-height: 110%; margin: 0; padding-top: 0.25em; padding-bottom: 0.25em; }
+div.search-results p.date { color: rgba(51, 51, 51, 0.5); font-style: italic; }
+  </style>
 <div class="demo-container">
 <br><br><br><br>
 <div class="demo-wrapper">
