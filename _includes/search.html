@@ -77,10 +77,10 @@ input[type=text]:focus {
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
-        searchResultTemplate: '<h4><a href="{url}" title="{desc}">{title}</a></h4>',
+        searchResultTemplate: '<div class="single-search-result"><h2><a href="{url}" title="{desc}">{title}</a></h2><p>{snippet}</p><p class="date">{date}</p></div>',
         noResultsText: 'Counrty not found!',
         limit: 1,
         fuzzy: false,
-        exclude: ['🇬🇾 Guyana']
+        exclude: ['welcome']
       })
     </script>
