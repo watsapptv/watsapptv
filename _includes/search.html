@@ -79,7 +79,7 @@ input[type=text]:focus {
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
-        searchResultTemplate: '<h4><a href="{url}">{title}</a></h4>{snippet}',
+        searchResultTemplate: '<h4><a href="{url}">{title}</a></h4>{snippet}<p class="dateline">Join: {date}</p>',
         noResultsText: 'Result not found!',
         limit: 1,
         fuzzy: false,
