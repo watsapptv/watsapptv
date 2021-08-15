@@ -511,6 +511,14 @@ footer {
     padding: 2em 0;
    position: fixed;
      bottom: 0;
+	@include media-query($on-palm) {
+        position: fixed;
+        bottom: 0;
+    }
+	@include media-query($on-iphone) {
+        position: fixed;
+        bottom: 0;
+    }
 }
 
 
