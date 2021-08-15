@@ -509,14 +509,14 @@ footer {
  text-align: center;
   font-size: 10px;
     padding: 2em 0;
-   position: fixed;
+   position: absolute;
      bottom: 0;
 	@include media-query($on-palm) {
-        position: fixed;
+        position: absolute;
         bottom: 0;
     }
 	@include media-query($on-iphone) {
-        position: fixed;
+        position: absolute;
         bottom: 0;
     }
 }
