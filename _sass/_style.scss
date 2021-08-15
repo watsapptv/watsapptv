@@ -509,16 +509,7 @@ footer {
  text-align: center;
   font-size: 10px;
     padding: 2em 0;
-   position: absolute;
-     bottom: 0;
-	@include media-query($on-palm) {
-        position: absolute;
-        bottom: 0;
-    }
-	@include media-query($on-iphone) {
-        position: absolute;
-        bottom: 0;
-    }
+   min-height: calc(100vh - 200px);
 }
 
 
