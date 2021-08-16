@@ -328,7 +328,7 @@ section.signup {
   top: 55%;
   left: 65%;
   width: 1em;
-  height: 0.15em;
+  height: 0.05em;
   background: $brand-color;
   box-shadow: 
     0 0.25em 0 0 $brand-color,
@@ -339,7 +339,7 @@ section.signup {
 
 #hamburger:checked ~ .menu-container {
     width: 250px;
-	height: 10%;
+	height: 100%;
 	transition-delay: 0s;
         @include media-query($on-palm) {
             width: 250px;
