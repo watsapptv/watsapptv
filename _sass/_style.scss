@@ -339,7 +339,7 @@ section.signup {
 
 #hamburger:checked ~ .menu-container {
     width: 250px;
-	height: 100%;
+	height: 10%;
 	transition-delay: 0s;
         @include media-query($on-palm) {
             width: 250px;
@@ -348,7 +348,7 @@ section.signup {
 
 #hamburger:checked ~ .menu-container .menu {
 	width: 250vh;
-	height: 50vh;
+	height: 250vh;
 	transition: all .3s;
 }
 
