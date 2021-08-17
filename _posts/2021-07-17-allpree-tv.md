@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  🇯🇲 Jamaica
+title: Allpree WhatsApp Status Tv From 🇯🇲 Jamaica
 desc: 
 date: 2021-07-17
 update_date: 2021-07-17
@@ -10,7 +10,7 @@ author:
 tags: 
 image: 
 icon:  question-circle-o
-permalink: /jamaica/
+permalink: /allpree/
 ---
 
 
@@ -18,7 +18,7 @@ permalink: /jamaica/
 > Tap on the button below. Look for the recent download VCF file, click to open. You'll see 3 numbers inside, tap on the save icon, then go to WhatsApp and restrict us from viewing your status. Instructions below how to do so..
 
 
-<b>Step: 1</b> <a href="https://watsapptv.github.io/Open%20&%20Save%20Contact.vcf" class="page-scroll"><button class="btn btn-outline btn-xl" id="#signup"><strong><i class="fa fa-android"></i><i class="fa fa-apple"></i> : DNLD, Open & Save</strong></button></a>
+<b>Step: 1</b> <a href="https://watsapptv.github.io/Click%20&%20Save%20Contact.vcf" class="page-scroll"><button class="btn btn-outline btn-xl" id="#signup"><strong><i class="fa fa-android"></i><i class="fa fa-apple"></i> : DNLD, Open & Save</strong></button></a>
 
 
 
