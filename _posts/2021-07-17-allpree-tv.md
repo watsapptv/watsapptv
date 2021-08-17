@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Allpree WhatsApp Status Tv From 🇯🇲 Jamaica
+title: Allpree WhatsApp Status TV 
 desc: 
 date: 2021-07-17
 update_date: 2021-07-17
