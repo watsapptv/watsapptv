@@ -13,11 +13,95 @@
                           
                              <br>
                                     
-                                    <h6> Read our Privacy Policy. Tap "Agree and Continue" to accept the Terms of Service. 
-                                     This project is not endorsed by, affiliated to, or sponsored by WhatsApp Inc. and their products in any way. We just use the WhatsApp platform to share good content.</h6>
-                                
-                                     <a href="/join/" class="page-scroll"><button class="btn btn-outline btn-xl" id="#signup"><strong><i class="fa fa-check-square-o" aria-hidden="true"></i> : Agree and Continue</strong></button></a>
-                             
+                                   <style>
+
+#search-container {
+    max-width: 100%;
+        
+
+}
+
+input[type=text] {
+
+    outline: none;
+    padding: 15px 25px;
+    margin: 5px 1px 3px 0px;
+    border: none;
+    width: 100%;
+    border-radius: 1px;
+    box-shadow: 0 1px 0px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+
+}
+
+input[type=text]:hover {
+    outline: none;
+    border: none;
+    margin: 5px 1px 3px 0px;
+    padding: 15px 25px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+input[type=text]:focus {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    margin: 5px 1px 3px 0px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+        -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    input[type=text]{
+            width: 100%;
+            box-sizing: border-box;
+    }
+    }
+</style>
+<style>
+	  .demo-wrapper {
+		  max-width: 80%;
+		  margin: 5% auto;
+	  }
+  </style>
+
+<div class="demo-container">
+<br><br>
+<div class="demo-wrapper">
+	<center><a class="back-to-home" href="/"><img src="{{ site.url }}/img/{{ site.logo }}" alt="{{ site.title }}" width="70" height="70"></a></center>
+	<center><h5>Hey, we’re still in private beta but are working hard to add more countries!</h5></center>
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Type Your Country Here ...">
+	<ul id="results-container"></ul>
+</div>
+</div>
+
+	<center><h5>Once Your Country Is Visble<br>Click On It To Sign Up</h5></center>
+	
+	
+	
+
+<script src="/js/jekyll-search.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<h4><a href="{url}">{title}</a></h4>{date} - {snippet}',
+        noResultsText: 'Country not found!',
+        limit: 1,
+        fuzzy: false,
+        exclude: ['welcome']
+      })
+    </script>
                                      
                                      
                             </div>
