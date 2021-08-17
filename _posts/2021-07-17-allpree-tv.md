@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Allpree WhatsApp Status TV 
+title: Allpree WhatsApp Status
 desc: 
 date: 2021-07-17
 update_date: 2021-07-17
@@ -18,7 +18,7 @@ permalink: /allpree/
 > Tap on the button below. Look for the recent download VCF file, click to open. You'll see 3 numbers inside, tap on the save icon, then go to WhatsApp and restrict us from viewing your status. Instructions below how to do so..
 
 
-<b>Step: 1</b> <a href="https://watsapptv.github.io/Click%20&%20Save%20Contact.vcf" class="page-scroll"><button class="btn btn-outline btn-xl" id="#signup"><strong><i class="fa fa-android"></i><i class="fa fa-apple"></i> : DNLD, Open & Save</strong></button></a>
+<b>Step: 1</b> <a href="https://watsapptv.github.io/click%20&%20save%20contact.vcf" target="_blank" class="page-scroll"><button class="btn btn-outline btn-xl" id="#signup"><strong><i class="fa fa-android"></i><i class="fa fa-apple"></i> : DNLD, Open & Save</strong></button></a>
 
 
 
