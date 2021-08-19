@@ -5,7 +5,25 @@ layout: default
 
 <br><br><br>
 
+        <div class="post-title">
+    {% if page.icon %}
+    <div class="logo">
+        
+            <i class="fa fa-{{page.image}}"></i>
+        
+    </div>
+    {% endif %}
+    <div class="title">
         <h2>{{page.title}}</h2>
+        
+        <span>
+            <time datetime="">
+                   {{ page.date | date: '%B %d, %Y' }}
+            </time>
+        </span>
+        
+    </div>
+</div>
         
        
   
