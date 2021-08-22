@@ -10,7 +10,7 @@ layout: default
         
         <span>
             <time datetime="">
-                 {{ page.date | date: '%B %d, %Y' }}
+                Join: {{ page.date | date: '%B %d, %Y' }}
             </time>
         </span>
         
@@ -22,6 +22,8 @@ layout: default
             
             <i class="fa fa-address-book" aria-hidden="true"></i> {{page.contacts}} 
             <i class="fa fa-eye" aria-hidden="true"></i> {{page.views}}
+            <i class="fa fa-user-plus" aria-hidden="true"></i> {{page.invite}}
+            <i class="fa fa-bullhorn" aria-hidden="true"></i> {{page.ads}}
             
         
     </div>
