@@ -10,7 +10,7 @@ layout: default
         
         <span>
             <time datetime="">
-                <i class="fa fa-address-book" aria-hidden="true"></i> {{page.contacts}} contacts {{ page.date | date: '%B %d, %Y' }}
+                 {{ page.date | date: '%B %d, %Y' }}
             </time>
         </span>
         
@@ -19,8 +19,9 @@ layout: default
     {% if page.icon %}
     <div class="logo">
         
-            <i class="fa fa-{{page.icon}}"></i>
-            <i class="fa fa-user-o" aria-hidden="true"></i> {{page.contacts}} Contacts
+            
+            <i class="fa fa-address-book" aria-hidden="true"></i> {{page.contacts}} 
+            <i class="fa fa-eye" aria-hidden="true"></i> {{page.views}}
             
         
     </div>
