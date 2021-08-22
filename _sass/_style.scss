@@ -492,7 +492,7 @@ header {
     font-size: 200%;
     padding-right: 0.5em;
     @include media-query($on-palm) {
-             font-size: 180%;
+             font-size: 120%;
         }
 
 }
