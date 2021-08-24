@@ -1,0 +1,31 @@
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ 
+<div class="container">
+            <div class="row land">
+                <div class="home">
+                <div class="col-md-6 home-txt">
+                   <div class="home-right">
+                     <h1><strong>WatsApp TV</strong></h1> 
+                     <p style=""><strong>Share Entertaining Moments Through <i class="fa fa-whatsapp"></i> Status</strong></p>
+                        
+                         <div class="home-exp">
+                                <h1>Work, Home or School</h1>
+                                <h2>Discover entertaining clips that capture the funny things that happen when people and animals are at their best.</h2>
+                                
+                             
+                                    
+                                   
+                                     
+                                     
+                            </div>
+                        </div>
+                            </div>              
+                            
+                <div class="col-md-6">
+                        <div class="home-left">
+                     <div class="image-cont"></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
