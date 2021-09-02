@@ -60,8 +60,8 @@ input[type=text]:focus {
 <br><br>
 <div class="demo-wrapper">
 	<center><a class="back-to-home" href="/"><img src="{{ site.url }}/img/{{ site.logo }}" alt="{{ site.title }}" width="70" height="70"></a></center>
-	<center><h1>Instant Search</h1></center>
-	<center><h5>Start Your Search With @ Sign Below <br>Eg: @Allpree</h5></center>
+	<center><h1>Username Search</h1></center>
+	<center><h5>Start Your Search With @ Sign Below <br>Eg: @Garen</h5></center>
 <div id="search-container">
 <input type="text" id="search-input" placeholder="@username ...">
 	<ul id="results-container"></ul>
@@ -82,7 +82,7 @@ input[type=text]:focus {
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
         searchResultTemplate: '<h4><a href="{url}">{title} Invite You To</a></h4> {snippet} - {date}',
-        noResultsText: 'Results not found! <br><br>Learn How To add Yourself <a href="/creators">Click Here</a>',
+        noResultsText: 'Results not found! <br><br>Learn How To add Yourself <a href="/partner">Click Here</a>',
         limit: 1,
         fuzzy: false,
         exclude: ['welcome']
