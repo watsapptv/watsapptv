@@ -125,9 +125,9 @@ pre {
 
     p {
         color: $brand-color;
-        margin-bottom: 30px;
+        margin-bottom: 3px;
             @include media-query($on-laptop) {
-                margin-bottom: 30px;
+                margin-bottom: 3px;
                 }
     }
 
