@@ -209,9 +209,19 @@ pre {
         }
 }
 
-
 .image-cont {
    background-image: url( /img/Screenshot_20220313-193341_WhatsApp.jpg);
+   background-size: contain;
+   background-position: top center;
+   width: 100%;
+   height: 600px;
+   background-repeat: no-repeat;
+    @include media-query($on-laptop) {
+        height: 400px;
+    }
+}
+.image-cont2 {
+   background-image: url( /img/status1.png);
    background-size: contain;
    background-position: top center;
    width: 100%;
