@@ -168,8 +168,8 @@ pre {
     background-image: url(/img/person.png);
 }
 
-.language {
-    background-image: url(/img/speak.png);
+.email {
+    background-image: url(/img/email.png);
 }
 
 .country-icon {
@@ -182,6 +182,28 @@ pre {
 
 .location {
     background-image: url(/img/location.png);
+}
+
+
+input[type="text"], input[type="tel"], select {
+    display: inline-block;
+    width: calc(100% - 40px);
+    height: 100%;
+    padding-left: 5px;
+    font-size: 1.05em;
+    color: #757575;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+input[type="text"], input[type="tel"] {
+    padding-left: 8px;
+    height: calc(100% - 1px);
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    outline: 0;
 }
 
 
