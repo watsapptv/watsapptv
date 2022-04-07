@@ -29,7 +29,12 @@
                                 <input class="form-control" name="emailAddress" placeholder="Enter Email Address Here" type="text" required >
                             </div>
                         </div>
-                       
+                       <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="#phone-input"> WhatsApp Number </label>
+                                <input class="form-control" name="entry.538648952" placeholder="ex. 1(876)-111-1111" type="text" id="phone-input"  required>
+                                </div>
+                        </div>
                          <div class="col-md-6">
                             <div class="form-group">
                               <label>Gender</label>
@@ -89,7 +94,18 @@
                                     </select>
                             </div>
                         </div>
-                        
+                        <div class="col-md-6">
+                            <div class="form-group">
+                               <label>Country</label>
+                              <div class="form-control">
+                        <select class="crs-country" name="entry.573106087" data-default-value="Jamaica"  data-blacklist="CD,CG,SH,GS" data-region-id="six"></select>
+
+                        </div></div></div>
+
+                               <div class="col-md-6">
+                            <div class="form-group">
+                            <label>Region</label>
+                             <select class="form-control" name="entry.1077353202" id="six"></select>
                  
                               <div id="box-phone" class="one_of_the_boxes"><div class="icon_box phone"></div>
                     <input type="tel" id="phone" class="form-input" onkeyup="phoneKeyUp()" />
@@ -118,3 +134,21 @@
     <script type="text/javascript" src="https://branham.org/branham/js/countries-to-regions.js?v=3"></script>
     <script type="text/javascript" src="https://branham.org/branham/tel-input/js/intlTelInput.min.js?v=3"></script>
     <script type="text/javascript" src="https://branham.org/branham/tel-input/js/utils.js?v=5"></script>
+  </script>
+        const navigationURLStub = '../';
+        const translationItems = JSON.parse('{"translationitem_77644":"enter your full name","translationitem_77658":"loading...","translationitem_77660":"full name is required","translationitem_77661":"name must be less than 100 characters","translationitem_77662":"invalid phone number - please ensure that the country code flag beside the phone number and also the phone number are correct","translationitem_77663":"error saving contact","translationitem_77664":"system error","translationitem_78034":"internal server error","translationitem_78035":"unsubscribing...","translationitem_78036":"successfully unsubscribed","translationitem_117117":"loading...","translationitem_78038":"a text message has been sent to your phone"}');
+        const OVERRIDE_COUNTRY = 'GB';
+        
+        API.webMethodURL = navigationURLStub + 'branham/whatsappsignup.aspx';
+
+        // Google Analytics
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-17683273-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
