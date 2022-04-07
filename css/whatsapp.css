@@ -199,6 +199,10 @@ x {
     background-image: url(/img/phone.png);
 }
 
+.gender {
+    background-image: url(/img/gender.png);
+}
+
 .location {
     background-image: url(/img/location.png);
 }
