@@ -184,23 +184,23 @@ x {
 }
 
 .person {
-    background-image: url(../images/whatsappsignup/person.png);
+    background-image: url(/img/person.png);
 }
 
-.language {
-    background-image: url(../images/whatsappsignup/speak.png);
+.email {
+    background-image: url(/img/email.png);
 }
 
 .country-icon {
-    background-image: url(../images/whatsappsignup/globe.png);
+    background-image: url(/img/globe.png);
 }
 
 .phone {
-    background-image: url(../images/whatsappsignup/phone.png);
+    background-image: url(/img/phone.png);
 }
 
 .location {
-    background-image: url(../images/whatsappsignup/location.png);
+    background-image: url(/img/location.png);
 }
 
 .the_save_button, .the_done_button {
