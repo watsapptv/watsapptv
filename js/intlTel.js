@@ -4,7 +4,7 @@ $(document).ready(function () {
             $("#phone").intlTelInput({
                 utilsScript: 'https://superphone.io/f/assets/javascripts/utils.js',
                 numberType: "MOBILE",
-                nationalMode: true,
+                nationalMode: false,
                 autoFormat: true,
                 autoPlaceholder: true
             });
