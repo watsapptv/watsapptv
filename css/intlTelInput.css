@@ -38,7 +38,7 @@
   .intl-tel-input .selected-flag {
     z-index: 1;
     position: relative;
-    width: 36px;
+    width: 6px;
     height: 100%;
     padding: 0 0 0 8px; }
     .intl-tel-input .selected-flag .iti-flag {
