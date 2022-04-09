@@ -78,7 +78,7 @@
     .intl-tel-input .country-list .flag-box {
       display: inline-block;
       width: 20px; }
-    @media (max-width: 430px) {
+    @media (max-width: 390px) {
       .intl-tel-input .country-list {
         white-space: normal; } }
     .intl-tel-input .country-list .divider {
