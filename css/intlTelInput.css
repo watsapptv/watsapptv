@@ -27,8 +27,7 @@
     z-index: 0;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    padding-right: 3px;
-    margin-left: 30;
+    padding-right: 36px;
     margin-right: 0; }
   .intl-tel-input .flag-container {
     position: absolute;
@@ -39,7 +38,7 @@
   .intl-tel-input .selected-flag {
     z-index: 1;
     position: relative;
-    width: 6px;
+    width: 36px;
     height: 100%;
     padding: 0 0 0 8px; }
     .intl-tel-input .selected-flag .iti-flag {
@@ -79,7 +78,7 @@
     .intl-tel-input .country-list .flag-box {
       display: inline-block;
       width: 20px; }
-    @media (max-width: 390px) {
+    @media (max-width: 500px) {
       .intl-tel-input .country-list {
         white-space: normal; } }
     .intl-tel-input .country-list .divider {
@@ -978,3 +977,4 @@
 
 .iti-flag.np {
   background-color: transparent; }
+  
