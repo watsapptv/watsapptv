@@ -2,7 +2,7 @@ $(document).ready(function () {
     
             // Set up phone widget
             $("#phone").intlTelInput({
-                utilsScript: 'https://superphone.io/f/assets/javascripts/utils.js',
+                utilsScript: 'https://www.watsapp.tv/js/utils.js',
                 numberType: "MOBILE",
                 nationalMode: false,
                 autoFormat: true,
