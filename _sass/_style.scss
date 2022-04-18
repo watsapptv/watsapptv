@@ -761,6 +761,7 @@ section {
 }
 section h2 {
   font-size: 50px;
+  color: $text-color;
 }
 section.benefits {
   padding: 100px 0;
@@ -858,7 +859,7 @@ section.cta .cta-content {
 section.cta .cta-content h2 {
   margin-top: 0;
   margin-bottom: 25px;
-  color: white;
+  color: $text-color;
   max-width: 450px;
   font-size: 50px;
 }
