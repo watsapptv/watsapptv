@@ -746,3 +746,8 @@ crs-country.form-control,.form-group-lg crs-country,textarea.form-control{height
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.7);
 }
+.bg-primary {
+  background: $brand-color;
+  background: -webkit-linear-gradient(lighten($brand-color, 10%), $brand-color);
+  background: linear-gradient(lighten($brand-color, 10%), $brand-color);
+}
