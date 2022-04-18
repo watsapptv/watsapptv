@@ -747,6 +747,6 @@ crs-country.form-control,.form-group-lg crs-country,textarea.form-control{height
 }
 .bg-primary {
   background: $testimonial-color;
-  background: -webkit-linear-gradient(lighten($brand-color, 10%), $testimonial-color);
-  background: linear-gradient(lighten($brand-color, 10%), $testimonial-color);
+  background: -webkit-linear-gradient(lighten($testimonial-color, 10%), $testimonial-color);
+  background: linear-gradient(lighten($testimonial-color, 10%), $testimonial-color);
 }
